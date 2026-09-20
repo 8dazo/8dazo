@@ -1,81 +1,88 @@
-<h1 align="center">Hi there, I'm Devansh Mahant 👋</h1>
-
 <div align="center">
-  <a href="https://github.com/8dazo">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2196F3&center=true&vCenter=true&width=600&lines=Full-Stack+SDE+%40+Stride.AI;AI+Agent+%26+ML+Builder;LeetCode+Guardian+(2380);ACM+ICPC+Regional+Finalist" alt="Typing SVG" />
-  </a>
+
+# Devansh Mahant
+
+### I make machines think and interfaces feel.
+
+**Senior SWE @ Stride.AI** · AI engineering · agents · full-stack  
+**ICPC Regionalist · Top 0.3% LeetCode**
+
+[Portfolio](https://devansh.aurat.ai) · [LinkedIn](https://linkedin.com/in/devansh-m12) · [Email](mailto:devansh21y@gmail.com)
+
 </div>
 
-<p align="center">
-  A passionate software engineer specializing in AI agent infrastructure, vector databases, and full-stack development. I thrive on building autonomous systems and solving complex algorithmic challenges.
-</p>
+<br />
 
----
+<a href="https://devansh.aurat.ai">
+  <img src="./assets/street-projects.svg" width="100%" alt="Animated selected projects — portfolio-inspired walking street scene" />
+</a>
 
-### 👨‍💻 About Me
-- 💼 Currently building as a **Full-Stack SDE at Stride.AI** (Previously at CloudBloom & GeeksForGeeks).
-- 🎓 B.Tech in Computer Engineering from **IIIT Dharwad** (Class of 2024).
-- 🤖 Deeply focused on **Machine Learning, Large Action Models (LAMs), and Agentic frameworks** (Model Context Protocol).
-- 🏗️ Heavily index on hands-on project building over theoretical passive learning.
-- 📫 Reach out to me: **[devansh21y@gmail.com](mailto:devansh21y@gmail.com)**
+<br />
 
----
+## about me · under the hood
 
-### 🏆 Competitive Programming
-<p>
-  <img src="https://img.shields.io/badge/LeetCode-Guardian%20(2380)-FFA116?style=for-the-badge&logo=leetcode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Codeforces-Expert%20(1653)-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CodeChef-4%E2%98%85%20(1911)-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ACM_ICPC-2023_Regional_Finalist-000000?style=for-the-badge&logo=acm&logoColor=white"/>
-</p>
+I move between **agent infrastructure, full-stack products, model systems, and lower-level engineering**. The medium changes; the habit stays the same: understand the constraint, build the smallest useful system, then measure what happens in the real world.
 
----
+```text
+agent infrastructure  → tools · guardrails · evals · traces
+full-stack products   → next.js · node · postgres
+model systems         → LoRA · RAG · vision
+systems engineering   → rust · go · elixir
+```
 
-### 🚀 Featured Projects
+> beautiful systems that actually ship.
 
-* **[PhoneClaw](https://github.com/8dazo/PhoneClaw)**  
-  An end-to-end phone automation tool inspired by OpenClaw that runs entirely locally on Android devices.
-* **[elix-db](https://github.com/8dazo/elix-db)**  
-  A custom vector database built from scratch exploring advanced indexing architectures like HNSW and IVFFlat.
-* **[Captor](https://github.com/8dazo/Captor)**  
-  An open-source project focused on streamlined data and context capture.
-* **[Baelys.co](https://baelys.co)**  
-  An AI-driven image editing platform featuring robust background removal and stylized image generation capabilities.
-* **[Drowser](https://github.com/8dazo/Drowser)**  
-  A terminal-based browser engineered using Go and Brave operating in headless mode. 
-* **[Cap](https://github.com/8dazo/Cap)** *(In Development)*  
-  A SaaS platform utilizing a TypeScript SDK to strictly enforce and monitor budget limits on LLM API calls.
-* **[Job Listing @ Aurat.ai](https://job-listing.aurat.ai/)**  
-  Implementation and management of a dedicated job-listing platform.
+## selected projects · worth a look
 
----
+### 01 — [Captar](https://captar.aurat.ai)
+**Runtime control for LLM applications**  
+A guardrail layer that wraps the OpenAI client — per-session budget reservations, tool allowlists, and execution policy. No proxy; keys stay inside the host app. Span-first tracing with violation capture and eval-ready dataset export.
 
-### 💻 Tech Stack & Tools
-<p>
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-</p>
+`TypeScript` `Next.js` `PostgreSQL` `OpenAI API`
 
----
+### 02 — [Baelys](https://baelys.aurat.ai)
+**Multi-model AI image editor**  
+20+ LoRA style-transfer models, AI background removal, and a canvas-based multi-layer editor. Launched on Product Hunt and monetized with tiered subscriptions.
 
-### 📊 GitHub Stats & Activity
+`Next.js` `Node.js` `LoRA` `Canvas`
+
+### 03 — [PhoneClaw](https://github.com/8dazo/phoneclaw)
+**Phone automation, fully local**  
+End-to-end Android automation inspired by OpenClaw — an agent that drives your phone while running entirely on-device. No cloud, no leaks.
+
+`TypeScript` `Android` `Agents`
+
+### 04 — [elix-db](https://github.com/8dazo/elix-db)
+**A vector database from scratch**  
+Custom vector DB built in Elixir to explore indexing architectures such as HNSW and IVFFlat from first principles.
+
+`Elixir` `HNSW` `IVFFlat`
+
+### 05 — [Drowser](https://github.com/8dazo/drowser)
+**A browser that lives in your terminal**  
+Terminal-based browser engineered in Go, driving Brave in headless mode. The web, rendered where developers actually live.
+
+`Go` `Headless` `CLI`
+
+## what I work with
+
+`LLM Orchestration` · `Agents` · `RAG` · `LoRA Fine-Tuning` · `TypeScript` · `Python` · `Rust` · `C++` · `Next.js` · `Node.js` · `PostgreSQL` · `Docker` · `AWS` · `Solidity` · `Eval Pipelines`
+
+## github · activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=8dazo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Devansh's GitHub stats" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=8dazo&theme=tokyonight&hide_border=true&background=0D1117" alt="Devansh's GitHub Streak" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=8dazo&show_icons=true&hide_border=true&bg_color=00000000" alt="Devansh's GitHub stats" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=8dazo&hide_border=true&background=00000000" alt="Devansh's GitHub streak" width="49%" />
 </div>
 
-<br>
+<br />
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=8dazo&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</div>
 
-<!-- Profile views counter -->
-<div align="center">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=8dazo&color=blueviolet&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+### let's build something weird
+
+[devansh.aurat.ai](https://devansh.aurat.ai) · [devansh21y@gmail.com](mailto:devansh21y@gmail.com)
+
+<sub>ship it ✦ break it ✦ fix it ✦ ship it again</sub>
+
 </div>
